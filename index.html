@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#testimonials">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <h1>Welcome to Our Website</h1>
+        <p>Providing quality services that you can trust.</p>
+        <a href="#contact"><button class="hero-button">Get Started</button></a>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="services-content">
+        <h2>Our Services</h2>
+        <p>We offer a range of services to meet your needs.</p>
+            <div>
+                <ul>
+                    <li>Service 1</li>
+                    <li>Service 2</li>
+                    <li>Service 3</li>
+                </ul>
+            </div>
+        </div>
+        <div class="services-image">
+            <img src="./2636676.jpg" alt="Services Image">
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <blockquote>
+            <p>"This service has changed my life for the better! Highly recommend."</p>
+            <footer>- Happy Customer</footer>
+        </blockquote>
+        <blockquote>
+            <p>"Exceptional quality and fantastic support."</p>
+            <footer>- Satisfied Client</footer>
+        </blockquote>
+    </section>
+    
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
